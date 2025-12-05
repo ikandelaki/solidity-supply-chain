@@ -1,0 +1,209 @@
+{
+    "contractName": "HelloWorld",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "getHelloMessage",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getHelloMessage\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"f:/programming/solidity-study/src/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"f:/programming/solidity-study/src/HelloWorld.sol\":{\"keccak256\":\"0x901b61489a609a078011b26ec30a15a2226e04bbdad28cf438ec8ed4ebf9be5b\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://fbedc768a73f4568e656d0af0b92da4c85e1a2150ca032ee8150562ad7b3623c\",\"dweb:/ipfs/QmQQFAordydVvTVwJrffq12ec4uFvTa2S9HY7GfqRWkav3\"]}},\"version\":1}",
+    "bytecode": "608080604052346100a857600080546001908181811c9116801561009e575b602082101461008a57601f8111610061575b50507f48656c6c6f20576f726c6400000000000000000000000000000000000000001690556101ec90816100ae8239f35b828052601f60208420910160051c8101905b8181106100805750610030565b8381558201610073565b634e487b7160e01b83526022600452602483fd5b90607f169061001e565b600080fdfe608080604052600436101561001357600080fd5b6000803560e01c633493b37c1461002a5750600080fd5b346101245780600319360112610124578054600181811c918181169184831561011a575b60209283861085146101065785885260208801949081156100ea5750600114610092575b61008e876100828189038261017e565b60405191829182610127565b0390f35b6000805294509192917f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635b8386106100d957505050910190506100828261008e3880610072565b8054858701529482019481016100bd565b60ff1916855250505001915061008290508261008e3880610072565b634e487b7160e01b82526022600452602482fd5b93607f169361004e565b80fd5b919091602080825283519081818401526000945b82861061016857505080604093941161015b575b601f01601f1916010190565b600083828401015261014f565b858101820151848701604001529481019461013b565b90601f8019910116810190811067ffffffffffffffff8211176101a057604052565b634e487b7160e01b600052604160045260246000fdfea2646970667358221220d0789f9768d5d195f453a07a59c88159667f1f5cb6a43e768df472d5752f838b64736f6c634300080d0033",
+    "deployedBytecode": "608080604052600436101561001357600080fd5b6000803560e01c633493b37c1461002a5750600080fd5b346101245780600319360112610124578054600181811c918181169184831561011a575b60209283861085146101065785885260208801949081156100ea5750600114610092575b61008e876100828189038261017e565b60405191829182610127565b0390f35b6000805294509192917f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635b8386106100d957505050910190506100828261008e3880610072565b8054858701529482019481016100bd565b60ff1916855250505001915061008290508261008e3880610072565b634e487b7160e01b82526022600452602482fd5b93607f169361004e565b80fd5b919091602080825283519081818401526000945b82861061016857505080604093941161015b575b601f01601f1916010190565b600083828401015261014f565b858101820151848701604001529481019461013b565b90601f8019910116810190811067ffffffffffffffff8211176101a057604052565b634e487b7160e01b600052604160045260246000fdfea2646970667358221220d0789f9768d5d195f453a07a59c88159667f1f5cb6a43e768df472d5752f838b64736f6c634300080d0033",
+    "sourceMap": "68:183:0:-:0;;;;;;;125:13;68:183;;;;;;;;;;;;;;-1:-1:-1;68:183:0;;;;;;;;;;;-1:-1:-1;;;68:183:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;68:183:0;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "68:183:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;:::i;:::-;;;;;;;;;-1:-1:-1;68:183:0;;;;;;;;;;-1:-1:-1;;;68:183:0;;;-1:-1:-1;68:183:0;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;68:183:0;;;-1:-1:-1;;;68:183:0;;-1:-1:-1;68:183:0;;-1:-1:-1;68:183:0;;;;;;;-1:-1:-1;;;68:183:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;68:183:0;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;",
+    "sourcePath": "f:/programming/solidity-study/src/HelloWorld.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.13+commit.abaa5c0e"
+    },
+    "ast": {
+        "absolutePath": "f:/programming/solidity-study/src/HelloWorld.sol",
+        "exportedSymbols": {
+            "HelloWorld": [
+                13
+            ]
+        },
+        "id": 14,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".13"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "40:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "HelloWorld",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "HelloWorld",
+                "nameLocation": "77:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "helloMessage",
+                        "nameLocation": "110:12:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 13,
+                        "src": "95:43:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "95:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "48656c6c6f20576f726c64",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "125:13:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_592fa743889fc7f92ac2a37bb1f5ba1daf2a5c84741ca0e0061d243a2e6707ba",
+                                "typeString": "literal_string \"Hello World\""
+                            },
+                            "value": "Hello World"
+                        },
+                        "visibility": "private"
+                    },
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "210:38:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 9,
+                                        "name": "helloMessage",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 4,
+                                        "src": "228:12:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "functionReturnParameters": 8,
+                                    "id": 10,
+                                    "nodeType": "Return",
+                                    "src": "221:19:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "3493b37c",
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getHelloMessage",
+                        "nameLocation": "156:15:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "171:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 8,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 7,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 12,
+                                    "src": "195:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 6,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "195:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "194:15:0"
+                        },
+                        "scope": 13,
+                        "src": "147:101:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 14,
+                "src": "68:183:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "40:211:0"
+    },
+    "functionHashes": {
+        "getHelloMessage()": "3493b37c"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "98400",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "getHelloMessage()": "infinite"
+        }
+    }
+}
